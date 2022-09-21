@@ -15,7 +15,7 @@
         <div class="wrapper">
             <div class="input">
                 <Textarea class="text-input" placeholder="Enter your text here..."></Textarea>
-                <button type="submit">Add </button>
+                <button type="submit" onclick="addTodo()">Add</button>
             </div>
             <div class="todo-container">
                 <div class="todos">
@@ -24,7 +24,7 @@
                             neque, odit ratione aut provident molestias similique illo quae sequi eaque vel quasi
                             delectus iste! Nesciunt distinctio nisi nam sint voluptas.
                         </div>
-                        <button type="button" class="del-btn">delete</button>
+                        <button type="button" class="del-btn" onclick="deleteTodo()">delete</button>
                     </div>
                     <div class="todo">this is my second todo</div>
                 </div>
@@ -32,7 +32,20 @@
         </div>
     </div>
 </body>
-<script src="./index.js">
+<script>
+
+    "use strict";
+
+    // alert("Work in progress...");
+
+    const addTodo = () => {
+        alert("add new todo");
+    };
+
+    const deleteTodo = () => {
+        alert("delete todo");
+    };
+
 </script>
 
 </html>
