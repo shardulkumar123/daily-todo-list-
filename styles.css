@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600&display=swap');
+
 body, html{
 margin: 0;
 padding: 0;
@@ -10,9 +12,13 @@ padding: 0;
 }
 
 .header{
+    font-family: inter;
     display: flex;
     justify-content: center;
-    padding: 10px;    
+    padding: 10px;
+    font-size: 32px;  
+    font-style: normal;  
+    font-weight: 600;
 }
 .wrapper{
     display: flex;
@@ -56,10 +62,20 @@ button{
     gap: 8px;
 }
 .todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
     border: 1px solid rgb(135, 131, 131);
     width: 100%;
     background: #EFEFEF;
     border-radius: 8px;
     
+}
+.del-btn{
+   background: #D2001A;
+   color: #EFEFEF;
+   border-radius: 8px;
+    /* position: absolute;
+    right: 0; */
 }
